@@ -1,0 +1,60 @@
+<main>
+    <div class="container">
+        <section class="page-header">
+            <h2>Parlez-nous de vous</h2>
+            <h5>Que vous ayez des questions ou que vous souhaitiez simplement nous saluer, contactez-nous.</h5>
+        </section>
+        <section class="contact-content">
+            <div class="contact-widget media">
+                <img src="assets/images/icon-4.png" alt="monitor" width="50px">
+                <div class="media-body">
+                    <h6 class="widget-title">Ecrivez-nous</h6>
+                    <p class="widget-content">{{ourEmail}}</p>
+                </div>
+            </div>
+            <div class="contact-widget media">
+                <img src="assets/images/icon-5.png" alt="book" width="40px">
+                <div class="media-body">
+                    <h6 class="widget-title">Appelez-nous</h6>
+                    <p class="widget-content">{{ourPhoneNumber}}</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form-wrapper">
+            <form action="index.html">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="name">VOTRE NOM <sup>*</sup></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name *">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">VOTRE ADRESSE E-MAIL <sup>*</sup></label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="feeney.matteo@schmeler.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="subject">SUJET <sup>*</sup></label>
+                        <input type="text" class="form-control" id="name" name="subject" placeholder="Development">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="phone">VOTRE NUMÉRO DE TÉLÉPHONE <sup>*</sup></label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="635-396-9570">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-12">
+                        <label for="message">COMMENT POUVONS-NOUS VOUS AIDER ? <sup>*</sup></label>
+                        <textarea name="message" id="message" class="form-control" rows="7"
+                            placeholder="Bonjour, je voudrais..."></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mb-4">Envoyer</button>
+                    <p class="form-footer-text">Nous vous répondrons dans un délai de 1 à 2 jours ouvrables.</p>
+                </div>
+            </form>
+        </section>
+    </div>
+</main>
